@@ -1,0 +1,14 @@
+D:\YandexDisk\C#\Новая папка\MarkovChains\obj\Debug\net8.0\MarkovChains.GeneratedMSBuildEditorConfig.editorconfig
+D:\YandexDisk\C#\Новая папка\MarkovChains\obj\Debug\net8.0\MarkovChains.AssemblyInfoInputs.cache
+D:\YandexDisk\C#\Новая папка\MarkovChains\obj\Debug\net8.0\MarkovChains.AssemblyInfo.cs
+D:\YandexDisk\C#\Новая папка\MarkovChains\obj\Debug\net8.0\MarkovChains.csproj.CoreCompileInputs.cache
+D:\YandexDisk\C#\Новая папка\MarkovChains\bin\Debug\net8.0\MarkovChains.exe
+D:\YandexDisk\C#\Новая папка\MarkovChains\bin\Debug\net8.0\MarkovChains.deps.json
+D:\YandexDisk\C#\Новая папка\MarkovChains\bin\Debug\net8.0\MarkovChains.runtimeconfig.json
+D:\YandexDisk\C#\Новая папка\MarkovChains\bin\Debug\net8.0\MarkovChains.dll
+D:\YandexDisk\C#\Новая папка\MarkovChains\bin\Debug\net8.0\MarkovChains.pdb
+D:\YandexDisk\C#\Новая папка\MarkovChains\obj\Debug\net8.0\MarkovChains.dll
+D:\YandexDisk\C#\Новая папка\MarkovChains\obj\Debug\net8.0\refint\MarkovChains.dll
+D:\YandexDisk\C#\Новая папка\MarkovChains\obj\Debug\net8.0\MarkovChains.pdb
+D:\YandexDisk\C#\Новая папка\MarkovChains\obj\Debug\net8.0\MarkovChains.genruntimeconfig.cache
+D:\YandexDisk\C#\Новая папка\MarkovChains\obj\Debug\net8.0\ref\MarkovChains.dll
