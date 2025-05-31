@@ -287,7 +287,7 @@ namespace KaimiraGames
     /// and Add() to the WeightedList for a single calculation pass.
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public readonly struct WeightedListItem<T>
+    internal readonly struct WeightedListItem<T>
     {
         internal readonly T _item;
         internal readonly int _weight;
@@ -299,7 +299,7 @@ namespace KaimiraGames
         }
     }
 
-    public enum WeightErrorHandlingType
+    internal enum WeightErrorHandlingType
     {
         SetWeightToOne, // Default
         ThrowExceptionOnAdd, // Throw exception for adding non-positive weight.
