@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MarkovChains")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87898bc391c1364bdcb5b8778b20fffe120ec7e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("MarkovChains")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MarkovChains")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\YandexDisk\\C#\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\MarkovChains\\",
+  "WorkspaceRootPath": "D:\\YandexDisk\\C#\\MarkovChains\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{826FFAAC-B9AD-4DD6-AB3E-7666ABB1EE57}|MarkovChains.csproj|d:\\yandexdisk\\c#\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\markovchains\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{826FFAAC-B9AD-4DD6-AB3E-7666ABB1EE57}|MarkovChains.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{826FFAAC-B9AD-4DD6-AB3E-7666ABB1EE57}|MarkovChains.csproj|d:\\yandexdisk\\c#\\markovchains\\markovchains.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{826FFAAC-B9AD-4DD6-AB3E-7666ABB1EE57}|MarkovChains.csproj|solutionrelative:markovchains.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{826FFAAC-B9AD-4DD6-AB3E-7666ABB1EE57}|MarkovChains.csproj|d:\\yandexdisk\\c#\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\markovchains\\weightedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{826FFAAC-B9AD-4DD6-AB3E-7666ABB1EE57}|MarkovChains.csproj|solutionrelative:weightedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{826FFAAC-B9AD-4DD6-AB3E-7666ABB1EE57}|MarkovChains.csproj|d:\\yandexdisk\\c#\\markovchains\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{826FFAAC-B9AD-4DD6-AB3E-7666ABB1EE57}|MarkovChains.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,30 +38,33 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WeightedList.cs",
-              "DocumentMoniker": "D:\\YandexDisk\\C#\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\MarkovChains\\WeightedList.cs",
-              "RelativeDocumentMoniker": "WeightedList.cs",
-              "ToolTip": "D:\\YandexDisk\\C#\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\MarkovChains\\WeightedList.cs",
-              "RelativeToolTip": "WeightedList.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAtwBoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T18:42:42.401Z",
+              "DocumentIndex": 0,
+              "Title": "MarkovChains",
+              "DocumentMoniker": "D:\\YandexDisk\\C#\\MarkovChains\\MarkovChains.csproj",
+              "RelativeDocumentMoniker": "MarkovChains.csproj",
+              "ToolTip": "D:\\YandexDisk\\C#\\MarkovChains\\MarkovChains.csproj",
+              "RelativeToolTip": "MarkovChains.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-31T16:04:16.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\YandexDisk\\C#\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\MarkovChains\\Program.cs",
+              "DocumentMoniker": "D:\\YandexDisk\\C#\\MarkovChains\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\YandexDisk\\C#\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\MarkovChains\\Program.cs",
+              "ToolTip": "D:\\YandexDisk\\C#\\MarkovChains\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAMAAAAAAAAAAAAAtwN4AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAwwBEBAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T16:15:09.665Z",
               "EditorCaption": ""
