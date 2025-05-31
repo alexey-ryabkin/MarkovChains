@@ -15,7 +15,7 @@ namespace KaimiraGames
     /// O(n) CRUD complexity. In other words, you can add any item of type T to a List with an integer weight,
     /// and get a random item from the list with probability ( weight / sum-weights ).
     /// </summary>
-    public class WeightedList<T> : IEnumerable<T>
+    internal class WeightedList<T> : IEnumerable<T>
     {
         /// <summary>
         /// Create a new WeightedList with an optional System.Random.
