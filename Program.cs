@@ -119,7 +119,7 @@ namespace MarkovChains
         /// <returns></returns>
         private WeightedList<string> _GetWeighedList(string word)
         {
-            if (_wordMatrix.ContainsKey(word))
+            if (_wordMatrix.ContainsKey(word) && word.Length != 0)
             {
                 WeightedList<string> wl = new WeightedList<string>();
                 wl.BadWeightErrorHandling = WeightErrorHandlingType.ThrowExceptionOnAdd;
@@ -260,15 +260,43 @@ namespace MarkovChains
                 return new MarkovChain();
             }
         }
+        public void Remove0()
+        {
+            string[] outerkeys = _wordMatrix.Keys.ToArray();
+            foreach (string outerkey in outerkeys)
+            {
+                string[] innerkeys = _wordMatrix[outerkey].Keys.ToArray();
+                foreach(string innerkey in innerkeys)
+                {
+                    if (_wordMatrix[outerkey][innerkey] == 0)
+                    {
+                        _wordMatrix[outerkey].Remove(innerkey);
+                    }
+                }
+                if (_wordMatrix[outerkey].Count == 0)
+                {
+                    _wordMatrix.Remove(outerkey);
+                }
+            }
+        }
+        public string Next
+        {
+            get 
+            {
+                return this._next();
+            }
+        }
     }
     internal class Program
     {
         static void Main(string[] args)
         {
+            MarkovChain wordMatrix;
             LogPath = Path.Combine(
                 Environment.GetFolderPath(Environment.SpecialFolder.Personal),
                 typeof(MarkovChain).Name
             );
+            /*
             //string filePath = @"D:\Temp\Friyana.txt";
             string filePath = @"D:\Temp\output.txt";
             //string text;
@@ -285,19 +313,24 @@ namespace MarkovChains
                 return;
             }
 
-            MarkovChain wordMatrix = new MarkovChain();
+            wordMatrix = new MarkovChain();
             foreach (string line in lines)
             {
                 string[] words = line.Split();
                 wordMatrix.AddText(words);
             }
-            Log(wordMatrix.ToString());
-            wordMatrix.SerializeToJSON(@"D:\Temp\Markov.json");
-            wordMatrix = MarkovChain.LoadFromJSON(@"D:\Temp\Markov.json");
-            
+            //Log(wordMatrix.ToString());
+            //wordMatrix.SerializeToJSON(@"D:\Temp\Markov.json");
+            */
+            wordMatrix = MarkovChain.LoadFromJSON(@"D:\Temp\ktap.json");
+
+            //wordMatrix.Remove0();
+            //wordMatrix.SerializeToJSON(@"D:\Temp\MarkovNo0s.json");
+
             while (true)
             {
-                Log(wordMatrix.CreateText());
+                Log(wordMatrix.Next);
+                //Log(wordMatrix.CreateText());
                 Console.ReadLine();
             }
         }
